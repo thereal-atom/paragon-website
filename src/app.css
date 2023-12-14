@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Geist', sans-serif;
+}
+
+@font-face {
+    font-family: "Geist";
+    font-weight: 100 900;
+    src: url("/fonts/GeistVariableVF.eot"); /* IE9 Compat Modes */
+    src: local(""), url("/fonts/GeistVariableVF.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("/fonts/GeistVariableVF.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("/fonts/GeistVariableVF.woff") format("woff"),
+        /* Modern Browsers */ url("/fonts/GeistVariableVF.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("/fonts/GeistVariableVF.svg#Lora") format("svg"); /* Legacy iOS */
+}
